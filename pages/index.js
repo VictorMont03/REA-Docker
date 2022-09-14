@@ -4,6 +4,9 @@ import ReactPlayer from "react-player";
 export default function Home() {
   return (
     <main className="">
+      <Head>
+        <title>Docker</title>
+      </Head>
       <header className="tw-w-full tw-fixed tw-top-0 tw-left-0 tw-bg-white tw-z-[30] tw-h-[100px] tw-flex tw-items-center">
         <nav className="tw-flex tw-justify-around tw-w-full  hover:tw-color-blue">
           <a href="https://www.docker.com/" target="_blank">
@@ -225,7 +228,7 @@ export default function Home() {
         </div>
         <div
           id="vs"
-          className="tw-scroll-mt-[100px] tw-bg-white tw-w-[90%] tw-text-justify tw-py-[30px] tw-px-[100px] tw-rounded-[10px] tw-mb-[50px]"
+          className="tw-scroll-mt-[100px] tw-bg-white tw-w-[90%] tw-text-justify tw-py-[30px] tw-px-[100px] tw-rounded-[10px] tw-mb-[20px]"
         >
           <h1 className="tw-mb-[20px] tw-text-[30px]">Contêiner vs Imagem</h1>
           <p>
@@ -285,16 +288,55 @@ export default function Home() {
               <h3 className="tw-font-bold tw-text-[20px] tw-mt-[20px]">
                 Windows
               </h3>
-              <ReactPlayer url="https://www.youtube.com/watch?v=rxXbGHN4GtA" />
+              <ReactPlayer
+                url="https://www.youtube.com/watch?v=rxXbGHN4GtA"
+                width="500px"
+                height="300px"
+              />
             </div>
             <div className="tw-mt-[0px] tw-w-full tw-flex tw-flex-col tw-justify-center">
               <h3 className="tw-font-bold tw-text-[20px] tw-mt-[20px]">
                 Linux
               </h3>
-              <ReactPlayer url="https://www.youtube.com/watch?v=q4ZK6IJCS6Q" />
+              <ReactPlayer
+                url="https://www.youtube.com/watch?v=q4ZK6IJCS6Q"
+                width="500px"
+                height="300px"
+              />
             </div>
           </div>
         </div>
+      </div>
+      <div className="tw-mb-[50px] tw-px-[100px]">
+        <h1 className="tw-font-bold">Referências</h1>
+        <ul>
+          <li>
+            <a href="https://www.microserviceit.com.br/docker/" target="_blank">
+              https://www.microserviceit.com.br/docker/
+            </a>
+          </li>
+          <li>
+            <a href="https://docs.docker.com/" target="_blank">
+              https://docs.docker.com/
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.opservices.com.br/o-que-e-docker/#:~:text=Quais%20s%C3%A3o%20as%20funcionalidades%20do,o%20software%20de%20maneira%20padronizada"
+              target="_blank"
+            >
+              https://www.opservices.com.br/o-que-e-docker
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.redhat.com/pt-br/topics/virtualization/what-is-virtualization#:~:text=Virtualiza%C3%A7%C3%A3o%20%C3%A9%20uma%20tecnologia%20que,entre%20muitos%20usu%C3%A1rios%20ou%20ambientes"
+              target="_blank"
+            >
+              https://www.redhat.com/pt-br/topics/virtualization
+            </a>
+          </li>
+        </ul>
       </div>
       <footer className="tw-bg-blue tw-h-[100px] tw-flex tw-items-center tw-justify-around">
         <p className="tw-text-white">REA ● 2022</p>

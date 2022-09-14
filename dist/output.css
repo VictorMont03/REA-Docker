@@ -623,27 +623,16 @@ video {
   margin-bottom: 100px;
 }
 
-.tw-my-\[30px\] {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.tw-my-\[50px\] {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.tw-my-\[70px\] {
-  margin-top: 70px;
-  margin-bottom: 70px;
-}
-
 .tw-mt-\[0px\] {
   margin-top: 0px;
 }
 
 .tw-mb-\[20px\] {
   margin-bottom: 20px;
+}
+
+.tw-mb-\[50px\] {
+  margin-bottom: 50px;
 }
 
 .tw-mb-\[10px\] {
@@ -654,28 +643,20 @@ video {
   margin-top: 50px;
 }
 
-.tw-mb-\[50px\] {
-  margin-bottom: 50px;
-}
-
-.tw-mb-\[70px\] {
-  margin-bottom: 70px;
-}
-
 .tw-mt-\[20px\] {
   margin-top: 20px;
 }
 
-.tw-mr-\[10px\] {
-  margin-right: 10px;
-}
-
-.tw-mr-\[20px\] {
-  margin-right: 20px;
-}
-
 .tw-mr-\[30px\] {
   margin-right: 30px;
+}
+
+.tw-mb-\[30px\] {
+  margin-bottom: 30px;
+}
+
+.tw-mb-\[0px\] {
+  margin-bottom: 0px;
 }
 
 .tw-flex {
@@ -739,11 +720,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.tw-bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .tw-bg-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(34 144 227 / var(--tw-bg-opacity));
@@ -769,9 +745,14 @@ video {
   padding-right: 100px;
 }
 
-.tw-px-\[70px\] {
-  padding-left: 70px;
-  padding-right: 70px;
+.tw-px-\[10\%\] {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.tw-px-\[5\%\] {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .tw-text-justify {
